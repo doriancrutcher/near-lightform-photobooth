@@ -1,4 +1,4 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME || "dev-1621466730804-1173276";
+const CONTRACT_NAME = process.env.CONTRACT_NAME || "lightform-api.jiyoun.near";
 
 function getConfig(env) {
   switch (env) {
