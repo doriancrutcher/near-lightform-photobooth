@@ -1,4 +1,4 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME || "retroneon.near";
+const CONTRACT_NAME = process.env.CONTRACT_NAME || "dev-1621909975898-5172944";
 
 function getConfig(env) {
   switch (env) {
