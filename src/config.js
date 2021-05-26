@@ -1,4 +1,4 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME || "lightform-api.jiyoun.near";
+const CONTRACT_NAME = process.env.CONTRACT_NAME || "retroneon.near";
 
 function getConfig(env) {
   switch (env) {

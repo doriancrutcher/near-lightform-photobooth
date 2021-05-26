@@ -101,7 +101,7 @@ class HackTheThon {
         address: "/slide",
         args: {
           type: "f",
-          value: 2.0,
+          value: slideNum,
         },
       },
       this.lightformIP,
