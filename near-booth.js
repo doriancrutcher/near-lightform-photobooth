@@ -72,11 +72,11 @@ class HackTheThon {
     // /trying
 
     const provider = new nearlib.providers.JsonRpcProvider(
-      getConfig("testnet").nodeUrl
+      getConfig("mainnet").nodeUrl
     );
 
     const nonsensicalResult = await provider.query(
-      `call/${getConfig("testnet").contractName}/getSlide`,
+      `call/${getConfig("mainnet").contractName}/getSlide`,
       "AQ4"
     ); // Base 58 of '{}', yall
     const sensicalResult = JSON.parse(
